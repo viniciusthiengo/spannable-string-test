@@ -12,9 +12,9 @@ import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
-import android.text.SpannedString;
 import android.text.method.LinkMovementMethod;
 import android.text.style.BackgroundColorSpan;
+import android.text.style.BulletSpan;
 import android.text.style.ClickableSpan;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.ImageSpan;
@@ -22,10 +22,10 @@ import android.text.style.RelativeSizeSpan;
 import android.text.style.StrikethroughSpan;
 import android.text.style.StyleSpan;
 import android.text.style.SubscriptSpan;
+import android.text.style.SuggestionSpan;
 import android.text.style.SuperscriptSpan;
 import android.text.style.URLSpan;
 import android.text.style.UnderlineSpan;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -61,6 +61,11 @@ public class MainActivity extends AppCompatActivity {
 
         /* COLOCANDO O TETO COMO NEGRITO */
         styledString.setSpan(new StyleSpan(Typeface.BOLD), 13, 20, 0);
+
+        /* COLOCANDO UM PONTO / BULLET NA FRENTE DO TEXTO,
+         * COMO EM LISTAS HTML
+         * */
+        styledString.setSpan(new BulletSpan(10), 13, 13, 0);
 
         /* COLOCANDO O TEXTO COMO SUBLINHADO */
         styledString.setSpan(new UnderlineSpan(), 22, 32, 0);
