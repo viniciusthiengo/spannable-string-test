@@ -10,7 +10,7 @@ O conteúdo do artigo também está disponível em [vídeo](https://www.thiengo.
 
 ### Primeira parte
 
-Caso você queira ter acesso à primeira parte do artigo, então [entre por aqui](https://www.thiengo.com.br/como-utilizar-spannable-no-android-para-customizar-strings#title-01). Nesta primeira parte a estrutura de `CharSequance` é estudada em detalhes.
+Caso você queira ter acesso à primeira parte do artigo, então [entre por aqui](https://www.thiengo.com.br/como-utilizar-spannable-no-android-para-customizar-strings#title-01). Nesta primeira parte a estrutura de `CharSequence` é estudada em detalhes.
 
 ### Segundo projeto
 
